@@ -8,7 +8,7 @@ import { Book } from "./components/Book";
 
 import { Navbar } from "./components/Navbar";
 import AboutAuthor from "./components/AboutAuthor";
-import BookDesc1 from "./components/BookDesc1";
+import BookDesc from "./components/BookDesc";
 import { useAnimation, motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import Contact from "./components/Contact";
@@ -75,7 +75,7 @@ export default function App() {
                   {/* Right Component (Book Description) */}
                   <div className="md:w-1/2 w-full flex justify-center items-center text-center md:text-left">
                     <AnimatedSection>
-                      <BookDesc1 />
+                      <BookDesc />
                     </AnimatedSection>
                   </div>
                 </div>
