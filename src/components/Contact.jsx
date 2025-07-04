@@ -5,7 +5,7 @@ const Contact = () => {
     // <div className="min-h-screen text-grey flex flex-col justify-center items-center p-8">
     //   <div className="max-w-5xl w-full flex flex-col md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-12">
 
-    <div className="min-h-screen text-grey flex flex-col items-center p-6">
+    <div className="min-h-screen text-grey flex flex-col items-center p-8">
 
       {/* Main Content */}
       <main className="flex flex-col items-center w-full max-w-xl">

@@ -1,8 +1,6 @@
-import React from 'react';
-
 const AboutAuthor = () => {
   return (
-    <div className="min-h-screen text-grey flex flex-col justify-center items-center p-8">
+    <div className="min-h-screen text-grey flex flex-col items-center justify-center p-8">
       <div className="max-w-5xl w-full flex flex-col md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-12">
         {/* Author Photo */}
         <div className="w-80 h-80 flex-shrink-0">

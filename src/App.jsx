@@ -1,9 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Loader } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect } from "react";
 import { Experience } from "./components/Experience";
-import { UI } from "./components/UI";
 import { Book } from "./components/Book";
 
 import { Navbar } from "./components/Navbar";
@@ -79,25 +77,6 @@ export default function App() {
                     </AnimatedSection>
                   </div>
                 </div>
-
-                {/* Second Section */}
-                {/* <div className="section h-screen flex flex-col md:flex-row items-center md:items-stretch px-4 md:px-10"> */}
-                  {/* Left Component (Book Display) */}
-                  {/* <div className="md:w-1/2 w-full flex justify-center items-center">
-                    <Canvas className="w-full h-96 md:h-full">
-                      <Suspense fallback={null}>
-                        <Experience BookComponent={Book2} />
-                      </Suspense>
-                    </Canvas>
-                  </div> */}
-
-                  {/* Right Component (Book Description) */}
-                  {/* <div className="md:w-1/2 w-full flex justify-center items-center text-center md:text-left">
-                    <AnimatedSection>
-                      <BookDesc2 />
-                    </AnimatedSection>
-                  </div> */}
-                {/* </div> */}
               </>
             }
           />
